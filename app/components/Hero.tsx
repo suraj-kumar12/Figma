@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
           {/* ........ right image ...........  */}
           <div className="col w-full flex justify-end items-center">
             <Image
-              src="/illustration.png"
+              src="/Illustration.png"
               alt="Xpense Illustration"
               width={538.2}
               height={0}

@@ -39,7 +39,7 @@ const Features: React.FC = () => {
             </div>
             <div className="feature-image w-full flex items-center justify-end">
               <Image
-                src="/illustrator.png"
+                src="/Illustrator.png"
                 alt="Feature Illustration"
                 width={539}
                 height={433}
@@ -56,7 +56,7 @@ const Features: React.FC = () => {
           <div className="grid grid-cols-2">
             <div className="feature-image w-full  flex items-center">
               <Image
-                src="/illustrator-image.png"
+                src="/Illustrator-image.png"
                 alt="Feature Illustration"
                 width={540}
                 height={431}
