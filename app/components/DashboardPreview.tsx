@@ -26,26 +26,26 @@ const DashboardPreview: React.FC = () => {
         </div>
       </div>
 
-      <div className="flex justify-between items-center gap-4 w-[80%] mx-auto py-20">
+      <div className=" flex justify-between items-center md:gap-4 gap-1  md:w-[80%] mx-auto py-20">
         <Image
           src="/facebook.png"
           alt="Feature Illustration"
-          width={159}
-          height={32}
+          width={130}
+          height={34}
           className="object-contain"
         />
         <Image
           src="/google.png"
           alt="Feature Illustration"
-          width={113}
+          width={130}
           height={40}
-          className="object-contain"
+          className="object-contain "
         />
         <Image
           src="/coca-cola.png"
           alt="Feature Illustration"
-          width={113}
-          height={40}
+          width={130}
+          height={34}
           className="object-contain"
         />
 

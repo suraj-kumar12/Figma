@@ -7,13 +7,13 @@ const Pricing: React.FC = () => {
   return (
     <section className="py-16 pt-0">
       <div className="container mx-auto px-4">
-        <h1 className="text-[72px] font-bold text-[#292830] text-center">
+        <h1 className="text-[72px] font-bold text-[#292830] leading-[100%] text-center">
           Choose your flexible plan.
         </h1>
        
         <div className="md:flex justify-between items-center pt-16">
            {/* ..... first card  >>>>>>>>>>>>>>  */}
-          <div className="group transition-all duration-300 hover:shadow-lg card border border-[rgba(0,0,0,0.1)] lg:p-16 md:p-7">
+          <div className="group transition-all duration-300 hover:shadow-lg card border border-[rgba(0,0,0,0.1)] lg:p-16 md:p-7 p-8 mb-10">
             <p className="pb-5">
               <MdOutlineCardTravel className="text-[#3EC1F3] text-[24px]" />
             </p>
@@ -43,7 +43,7 @@ const Pricing: React.FC = () => {
 
             <div className="button pt-8">
               <button
-                className="group-hover:bg-[#FF7235] group-hover:text-[#FFFFFF] text-[#FF7235] border border-[#FF7235 bg-[#FFFFFF] md:py-2 lg:py-3 lg:px-6 md:px-4 rounded-md lg:text-[16px] md:text-[12px] flex items-center gap-3"
+                className="group-hover:bg-[#FF7235] group-hover:text-[#FFFFFF] text-[#FF7235] border border-[#FF7235 bg-[#FFFFFF] md:py-2 lg:py-3 lg:px-6 md:px-4 rounded-md lg:text-[16px] md:text-[12px] flex items-center gap-3 p-1"
               >
                 Get this <FaLongArrowAltRight />
               </button>
@@ -51,7 +51,7 @@ const Pricing: React.FC = () => {
           </div>
 
     {/* ............... 2nd card >>>>>>>>>>>>>>>  */}
-          <div className="group transition-all duration-300 hover:shadow-lg card border border-[rgba(0,0,0,0.1)] lg:p-16 md:p-7">
+          <div className="group transition-all duration-300 hover:shadow-lg card border border-[rgba(0,0,0,0.1)] lg:p-16 md:p-7 p-8 mb-10">
             <p className="pb-5">
               <MdOutlineCardTravel className="text-[#FF7235] text-[24px]" />
             </p>
@@ -81,7 +81,7 @@ const Pricing: React.FC = () => {
 
             <div className="button pt-8">
               <button
-                className="group-hover:bg-[#FF7235] group-hover:text-[#FFFFFF] text-[#FF7235] border border-[#FF7235 bg-[#FFFFFF] md:py-2 lg:py-3 lg:px-6 md:px-4 rounded-md lg:text-[16px] md:text-[12px]  flex items-center gap-3"
+                className="group-hover:bg-[#FF7235] group-hover:text-[#FFFFFF] text-[#FF7235] border border-[#FF7235 bg-[#FFFFFF] md:py-2 lg:py-3 lg:px-6 md:px-4 rounded-md lg:text-[16px] md:text-[12px]  flex items-center gap-3 p-1"
               >
                 Get this <FaLongArrowAltRight />
               </button>
@@ -89,7 +89,7 @@ const Pricing: React.FC = () => {
           </div>
 
      {/* >>>>>>>>>>>>>>>>> 3 card >>>>>>>>>>>>>>  */}
-          <div className="group transition-all duration-300 hover:shadow-lg card border border-[rgba(0,0,0,0.1)] lg:p-16 md:p-7">
+          <div className="group transition-all duration-300 hover:shadow-lg card border border-[rgba(0,0,0,0.1)] lg:p-16 md:p-7 p-8 mb-10">
             <p className="pb-5">
               <MdOutlineCardTravel className="text-[#4D12EE] text-[24px]" />
             </p>
@@ -119,7 +119,7 @@ const Pricing: React.FC = () => {
 
             <div className="button pt-8">
               <button
-                className="group-hover:bg-[#FF7235] transition-all duration-300 group-hover:text-[#FFFFFF] text-[#FF7235] border border-[#FF7235 bg-[#FFFFFF] md:py-2 lg:py-3 lg:px-6 md:px-4 rounded-md lg:text-[16px] md:text-[12px] flex items-center gap-3"
+                className="group-hover:bg-[#FF7235] transition-all duration-300 group-hover:text-[#FFFFFF] text-[#FF7235] border border-[#FF7235 bg-[#FFFFFF] md:py-2 lg:py-3 lg:px-6 md:px-4 rounded-md lg:text-[16px] md:text-[12px] flex items-center gap-3 p-1"
               >
                 Get this <FaLongArrowAltRight />
               </button>

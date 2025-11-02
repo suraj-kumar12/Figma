@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
               Helps you to organize your income and expenses
             </p>
             <div className="flex items-center gap-2">
-              <select className="bg-[#FF7235] text-[#FFFFFF] lg:py-[18px] md:py-3 outline-0 lg:pl-6 md:pl-3 lg:pr-10 md:pr-0 lg:text-[24px] md:text-[16px] font-normal rounded-lg lg:w-[270px] md:w-[115px] appearance-none drop-icon">
+              <select className="bg-[#FF7235] text-[#FFFFFF] pl-3 lg:py-[18px] md:py-3 py-2 px-10 outline-0 lg:pl-6 md:pl-3 lg:pr-10 md:pr-0 lg:text-[24px] md:text-[16px] font-normal rounded-lg lg:w-[270px] md:w-[115px] appearance-none drop-icon">
                 <option value="">Demo 1</option>
                 <option value="">Demo 2</option>
                 <option value="">Demo 3</option>

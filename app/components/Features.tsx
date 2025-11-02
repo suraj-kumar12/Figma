@@ -130,10 +130,10 @@ const Features: React.FC = () => {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="flex  items-center">
-            <h1 className="lg:text-[96px] md:text-[50px] font-bold text-[#292830] leading-[100%] w-[75%]">
+            <h1 className="lg:text-[96px] md:text-[50px] text-[20px] font-bold text-[#292830] leading-[100%] md:w-[75%] w-[50%]">
               The Product we <br /> work with.
             </h1>
-            <p className="lg:text-[24px] md:text-[16px] font-normal line-height: 1 text-[#BDBDBD] w-[25%]">
+            <p className="lg:text-[24px] md:text-[16px] font-normal line-height: 1 text-[#BDBDBD] w-[50%]">
               Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim
               aumsan nisi, tincidunt vel. Enim ipsum, at quis ullamcorper eget
               ut.
@@ -142,9 +142,9 @@ const Features: React.FC = () => {
 
 
           <div className="py-10">
-            <div className="flex justify-center gap-4 items-center py-20">
+            <div className="md:flex justify-center gap-4 items-center py-20">
               {/* card 1 ......................  */}
-              <div className="group transition-all duration-300 card flex justify-center items-center flex-col hover:shadow-lg py-20 md:px-0 lg:px-20">
+              <div className="group transition-all duration-300  card flex justify-center items-center flex-col hover:shadow-lg md:py-20 md:px-0 lg:px-20 ">
                 <button className="flex justify-center items-center bg-[#FFBD740D] lg:w-16 md:w-12 lg:h-16 md:h-12 rounded-full">
                   <MdPhonelinkOff  className="text-[#E2598B] lg:text-[35px] md:text-[25px]" />
                 </button>
