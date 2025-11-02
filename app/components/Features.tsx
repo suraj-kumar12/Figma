@@ -18,13 +18,13 @@ const Features: React.FC = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2">
             <div className="Info w-full">
-              <p className="text-[22px] font-normal text-[#BDBDBD] uppercase">
+              <p className="lg:text-[22px] md:text-[16px] font-normal text-[#BDBDBD] uppercase">
                 Alwalys online
               </p>
-              <h1 className="text-[96px] font-bold text-[#292830] leading-[100%] py-4">
+              <h1 className="lg:text-[96px] md:text-[50px] font-bold text-[#292830] leading-[100%] py-4">
                 Real-time support with cloud
               </h1>
-              <p className="text-[24px] font-normal text-[#BDBDBD] ">
+              <p className="lg:text-[24px] md:text-[16px] font-normal text-[#BDBDBD] ">
                 Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim
                 accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper
                 eget ut.
@@ -32,9 +32,9 @@ const Features: React.FC = () => {
 
               <Link
                 href=""
-                className="font-normal text-[24px] text-[#FF7235] flex items-center gap-4 py-4"
+                className="font-normal lg:text-[24px] md:text-[18px] text-[#FF7235] flex items-center lg:gap-4 md:gap-2 py-4"
               >
-                Learn more <FaArrowRightLong className="text-[#FF7235]" />
+                Learn more <FaArrowRightLong className="lg:text-[#FF7235] lg:text-[18px] md:text-[12px]" />
               </Link>
             </div>
             <div className="feature-image w-full flex items-center justify-end">
@@ -65,13 +65,13 @@ const Features: React.FC = () => {
             </div>
             <div className="Info flex items-center justify-end">
               <div className="Info w-full ">
-                <p className="text-[22px] font-normal text-[#BDBDBD] uppercase">
+                <p className="lg:text-[22px] md:text-[16px] font-normal text-[#BDBDBD] uppercase">
                   free some cost
                 </p>
-                <h1 className="text-[96px] font-bold text-[#292830] leading-[100%] py-6">
+                <h1 className="lg:text-[96px] md:text-[50px] font-bold text-[#292830] leading-[100%] py-6">
                   Save cost <br /> for you and family
                 </h1>
-                <p className="text-[24px] font-normal text-[#BDBDBD] ">
+                <p className="lg:text-[24px] md:text-[16px] font-normal text-[#BDBDBD] ">
                   Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim
                   accumsan nisi, tincidunt vel. Enim ipsum, amet quis
                   ullamcorper eget ut.
@@ -79,9 +79,9 @@ const Features: React.FC = () => {
 
                 <Link
                   href=""
-                  className="font-normal text-[24px] text-[#FF7235] flex items-center gap-4 py-6"
+                  className="font-normal lg:text-[24px] md:text-[18px] text-[#FF7235] flex items-center lg:gap-4 md:gap-2 py-4"
                 >
-                  Learn more <FaArrowRightLong className="text-[#FF7235]" />
+                  Learn more <FaArrowRightLong className="lg:text-[#FF7235] lg:text-[18px] md:text-[12px]" />
                 </Link>
               </div>
             </div>
@@ -94,13 +94,13 @@ const Features: React.FC = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2">
             <div className="Info w-full">
-              <p className="text-[22px] font-normal text-[#BDBDBD] uppercase">
+              <p className="lg:text-[22px] md:text-[16px] font-normal text-[#BDBDBD] uppercase">
                 Use anytime
               </p>
-              <h1 className="text-[96px] font-bold text-[#292830] leading-[100%] py-6">
+              <h1 className="lg:text-[96px] md:text-[50px] font-bold text-[#292830] leading-[100%] py-6">
                 Use anytime when you need
               </h1>
-              <p className="text-[24px] font-normal text-[#BDBDBD]">
+              <p className="lg:text-[24px] md:text-[16px] font-normal text-[#BDBDBD]">
                 Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim
                 accumsan nisi, tincidunt vel. Enim ipsum, amet quis ullamcorper
                 eget ut.
@@ -108,9 +108,9 @@ const Features: React.FC = () => {
 
               <Link
                 href=""
-                className="font-normal text-[24px] text-[#FF7235] flex items-center gap-4 py-6"
+                className="font-normal lg:text-[24px] md:text-[18px] text-[#FF7235] flex items-center lg:gap-4 md:gap-2 py-4"
               >
-                Learn more <FaArrowRightLong className="text-[#FF7235]" />
+               Learn more <FaArrowRightLong className="lg:text-[#FF7235] lg:text-[18px] md:text-[12px]"/>
               </Link>
             </div>
             <div className="feature-image w-full flex items-center justify-end">
@@ -130,10 +130,10 @@ const Features: React.FC = () => {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="flex  items-center">
-            <h1 className="text-[96px] font-bold text-[#292830] leading-[100%] w-[75%]">
+            <h1 className="lg:text-[96px] md:text-[50px] font-bold text-[#292830] leading-[100%] w-[75%]">
               The Product we <br /> work with.
             </h1>
-            <p className="text-[24px] font-normal line-height: 1 text-[#BDBDBD] w-[25%]">
+            <p className="lg:text-[24px] md:text-[16px] font-normal line-height: 1 text-[#BDBDBD] w-[25%]">
               Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim
               aumsan nisi, tincidunt vel. Enim ipsum, at quis ullamcorper eget
               ut.
@@ -144,14 +144,14 @@ const Features: React.FC = () => {
           <div className="py-10">
             <div className="flex justify-center gap-4 items-center py-20">
               {/* card 1 ......................  */}
-              <div className="group transition-all duration-300 card flex justify-center items-center flex-col hover:shadow-lg py-20 px-20 ">
-                <button className="flex justify-center items-center bg-[#FFBD740D] w-16 h-16 rounded-full">
-                  <MdPhonelinkOff  className="text-[#E2598B] text-[35px]" />
+              <div className="group transition-all duration-300 card flex justify-center items-center flex-col hover:shadow-lg py-20 md:px-0 lg:px-20">
+                <button className="flex justify-center items-center bg-[#FFBD740D] lg:w-16 md:w-12 lg:h-16 md:h-12 rounded-full">
+                  <MdPhonelinkOff  className="text-[#E2598B] lg:text-[35px] md:text-[25px]" />
                 </button>
-                <h2 className="text-[30px] text-[#292830] font-medium py-3">
+                <h2 className="lg:text-[30px] md:text-[20px] text-[#292830] font-medium py-3 ">
                   Cross platform
                 </h2>
-                <p className="text-[14px] font-normal text-[#BDBDBD] text-center">
+                <p className="lg:text-[14px] md:text-[12px] font-normal text-[#BDBDBD] text-center">
                   Elit esse cillum dolore eu fugiat nulla <br /> pariatur
                 </p>
                 <Link href="" className="mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -159,14 +159,14 @@ const Features: React.FC = () => {
                 </Link>
               </div>
                   {/* card 2 .......................  */}
-              <div className="group transition-all duration-300 card flex justify-center items-center flex-col hover:shadow-lg py-20 px-20 ">
-                <button className="flex justify-center items-center bg-[#FFBD740D] w-16 h-16 rounded-full">
-                  <CiCloudOn className="text-[#E2598B] text-[35px]" />
+              <div className="group transition-all duration-300 card flex justify-center items-center flex-col hover:shadow-lg py-20 md:px-0 lg:px-20 ">
+                <button className="flex justify-center items-center bg-[#FFBD740D] lg:w-16 md:w-12 lg:h-16 md:h-12 rounded-full">
+                  <CiCloudOn className="text-[#E2598B] lg:text-[35px] md:text-[25px]" />
                 </button>
-                <h2 className="text-[30px] text-[#292830] font-medium py-3">
+                <h2 className="lg:text-[30px] md:text-[20px] text-[#292830] font-medium py-3">
                   Cloud server
                 </h2>
-                <p className="text-[14px] font-normal text-[#BDBDBD] text-center">
+                <p className="lg:text-[14px] md:text-[12px] font-normal text-[#BDBDBD] text-center">
                   Elit esse cillum dolore eu fugiat nulla <br /> pariatur
                 </p>
                 <Link href="" className="mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -174,14 +174,14 @@ const Features: React.FC = () => {
                 </Link>
               </div>
                   {/* card 3 ............................  */}
-              <div className="group transition-all duration-300 card flex justify-center items-center flex-col p-10 hover:shadow-lg py-20 px-20">
-                <button className="flex justify-center items-center bg-[#FFBD740D] w-16 h-16 rounded-full">
-                  <MdOutlineBackpack className="text-[#4D12EE] text-[35px]" />
+              <div className="group transition-all duration-300 card flex justify-center items-center flex-col p-10 hover:shadow-lg py-20 md:px-0 lg:px-20">
+                <button className="flex justify-center items-center bg-[#FFBD740D] lg:w-16 md:w-12 lg:h-16 md:h-12 rounded-full">
+                  <MdOutlineBackpack className="text-[#4D12EE] lg:text-[35px] md:text-[25px]" />
                 </button>
-                <h2 className="text-[30px] text-[#292830] font-medium py-3">
+                <h2 className="lg:text-[30px] md:text-[20px] text-[#292830] font-medium py-3">
                   Pure Javascript
                 </h2>
-                <p className="text-[14px] font-normal text-[#BDBDBD] text-center">
+                <p className="lg:text-[14px] md:text-[12px] font-normal text-[#BDBDBD] text-center">
                   Elit esse cillum dolore eu fugiat nulla <br /> pariatur
                 </p>
 

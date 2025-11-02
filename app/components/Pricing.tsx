@@ -11,7 +11,7 @@ const Pricing: React.FC = () => {
           Choose your flexible plan.
         </h1>
        
-        <div className="flex justify-between items-center pt-16">
+        <div className="md:flex justify-between items-center pt-16">
            {/* ..... first card  >>>>>>>>>>>>>>  */}
           <div className="group transition-all duration-300 hover:shadow-lg card border border-[rgba(0,0,0,0.1)] lg:p-16 md:p-7">
             <p className="pb-5">

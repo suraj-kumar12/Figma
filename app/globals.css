@@ -55,16 +55,17 @@ body {
   background-repeat: no-repeat;
   background-position: right 1rem center;
   background-size: 1.5em;
-
-  padding-right: 2.5rem; /* Space for arrow */
+  padding-right: 2.5rem;
   cursor: pointer;
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .container {
     width: 90%;
   }
-} */
+}
 
-/* @media (max-width: 575px) {
-} */
+section {
+  width: 100%;
+  overflow-x: hidden;
+}

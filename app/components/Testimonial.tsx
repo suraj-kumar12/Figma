@@ -11,7 +11,7 @@ const Testimonial = () => {
     <>
       <section className="py-16 card-swiper overflow-hidden">
         <div className="container-fluid mx-auto px-4">
-          <h1 className="text-[96px] font-bold text-center leading-[100%]">
+          <h1 className="lg:text-[96px]  text-[50px] font-bold text-center leading-[100%]">
             We have millions of <br /> best wishers
           </h1>
           <div className="py-10 pt-20">
@@ -25,13 +25,13 @@ const Testimonial = () => {
                 delay: 1000,
                 disableOnInteraction: false,
               }}
-
               breakpoints={{
-    640: { slidesPerView: 1 },   // sm: 1 slide
-    768: { slidesPerView: 2 },   // md: ✅ 1 slide
-    1024: { slidesPerView: 3 },  // lg: 3 slides
-    1280: { slidesPerView: 4 },  // xl: 4 slides
-  }}
+                320: { slidesPerView: 1 },
+                640: { slidesPerView: 1 },
+                768: { slidesPerView: 2 },
+                1024: { slidesPerView: 3 },
+                1280: { slidesPerView: 4 },
+              }}
               className="mySwiper w-full ml-[-60px] overflow-x-hidden pb-[100px]"
             >
               {/* 1 ...........  */}
@@ -189,32 +189,31 @@ const Testimonial = () => {
           </div>
         </div>
       </section>
-
+      
       <section className="py-16">
         <div className="container-fluid mx-auto">
-          <div className="countries bg-[#FF7235] h-[700px] relative">
-            <h1 className="text-[72px] font-bold text-center text-[#FFFFFF] pt-20 leading-[100%]">
+          <div className="countries bg-[#FF7235] lg:h-[700px] md:h-[500] h-[400px] relative">
+            <h1 className="lg:text-[72px] md:text-[40px] font-bold text-center text-[#FFFFFF] pt-20 leading-[100%]">
               20M+ downloaded from 32 <br /> diffrent countires
             </h1>
-            <p className="text-[36px] font-medium text-center text-[#FFFFFF] pt-4">
+            <p className="lg:text-[36px] md:text-[25px] font-medium text-center text-[#FFFFFF] pt-4">
               Try demo for 7 days with full features.
             </p>
             <div className="flex justify-center pt-12 z-10 relative">
-              <select className="bg-[#ffffff] text-[#FF7235] py-[18px] outline-0 pl-6 pr-10 text-[24px] font-normal rounded-lg w-[270px] appearance-none drop-icon1">
+              <select className="bg-[#ffffff] text-[#FF7235] lg:py-[18px] md:py-3 py-2 px-2 outline-0 lg:pl-6 md:pl-3 lg:pr-10 md:pr-0 lg:text-[24px] md:text-[16px] font-normal rounded-lg lg:w-[270px] md:w-[115px] appearance-none drop-icon1">
                 <option value="">Demo 1</option>
                 <option value="">Demo 2</option>
                 <option value="">Demo 3</option>
               </select>
             </div>
 
-            <div className="flex justify-center">
-              {" "}
+            <div className="flex justify-center items-center">
               <Image
                 src="/gift.png"
                 width={1295}
                 height={340}
                 alt="Gift"
-                className="absolute bottom-20 w-[80%]"
+                className="absolute md:bottom-20 bottom-20 w-[80%]"
               />
             </div>
           </div>
