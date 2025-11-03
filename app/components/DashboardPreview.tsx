@@ -26,7 +26,7 @@ const DashboardPreview: React.FC = () => {
         </div>
       </div>
 
-      <div className=" flex justify-between items-center md:gap-4 gap-1  md:w-[80%] mx-auto py-20">
+      <div className=" flex justify-between items-center md:gap-4 gap-4 flex-wrap  md:w-[80%] mx-auto md:py-20 py-10 px-2">
         <Image
           src="/facebook.png"
           alt="Feature Illustration"
@@ -37,15 +37,15 @@ const DashboardPreview: React.FC = () => {
         <Image
           src="/google.png"
           alt="Feature Illustration"
-          width={130}
+          width={100}
           height={40}
           className="object-contain "
         />
         <Image
           src="/coca-cola.png"
           alt="Feature Illustration"
-          width={130}
-          height={34}
+          width={100}
+          height={30}
           className="object-contain"
         />
 

@@ -9,9 +9,9 @@ import { Pagination } from "swiper/modules";
 const Testimonial = () => {
   return (
     <>
-      <section className="py-16 card-swiper overflow-hidden">
+      <section className="md:py-16 py-4 card-swiper overflow-hidden">
         <div className="container-fluid mx-auto px-4">
-          <h1 className="lg:text-[96px]  text-[50px] font-bold text-center leading-[100%]">
+          <h1 className="lg:text-[96px]  md:text-[50px] text-[30px] font-bold text-center leading-[100%]">
             We have millions of <br /> best wishers
           </h1>
           <div className="py-10 pt-20">

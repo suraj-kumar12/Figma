@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Hero: React.FC = () => {
   return (
-    <section className="py-16">
+    <section className="md:py-16 py-6">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
           <div className="col w-full">
@@ -26,6 +26,7 @@ const Hero: React.FC = () => {
               <span className="lg:text-[24px] md:text-[18px] font-normal text-[#BDBDBD]">
                 — Web, iOs and Android
               </span>
+
             </div>
           </div>
 

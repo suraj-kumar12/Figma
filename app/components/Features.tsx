@@ -16,7 +16,7 @@ const Features: React.FC = () => {
 
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2">
+          <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
             <div className="Info w-full">
               <p className="lg:text-[22px] md:text-[16px] font-normal text-[#BDBDBD] uppercase">
                 Alwalys online
@@ -53,7 +53,7 @@ const Features: React.FC = () => {
       {/* feature 2 >>>>>>>>>>>>>>>>>>>>>>>>>  */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2">
+          <div className="grid md:grid-cols-2 gap-4">
             <div className="feature-image w-full  flex items-center">
               <Image
                 src="/Illustrator-image.png"
@@ -90,9 +90,9 @@ const Features: React.FC = () => {
       </section>
 
       {/* feature 3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */}
-      <section className="py-16">
+      <section className="md:py-16 py-0">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2">
+          <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
             <div className="Info w-full">
               <p className="lg:text-[22px] md:text-[16px] font-normal text-[#BDBDBD] uppercase">
                 Use anytime
@@ -141,14 +141,14 @@ const Features: React.FC = () => {
           </div>
 
 
-          <div className="py-10">
-            <div className="md:flex justify-center gap-4 items-center py-20">
+          <div className="md:py-10 py-0">
+            <div className="md:flex justify-center gap-4 items-center md:py-20 py-0">
               {/* card 1 ......................  */}
-              <div className="group transition-all duration-300  card flex justify-center items-center flex-col hover:shadow-lg md:py-20 md:px-0 lg:px-20 ">
-                <button className="flex justify-center items-center bg-[#FFBD740D] lg:w-16 md:w-12 lg:h-16 md:h-12 rounded-full">
+              <div className="group transition-all duration-300  card flex justify-center items-center flex-col hover:shadow-lg md:py-20 py-10 md:px-0 lg:px-20 ">
+                <button className="flex justify-center items-center bg-[#FFBD740D] lg:w-16 md:w-12 lg:h-16 md:h-12 rounded-full text-[55px]">
                   <MdPhonelinkOff  className="text-[#E2598B] lg:text-[35px] md:text-[25px]" />
                 </button>
-                <h2 className="lg:text-[30px] md:text-[20px] text-[#292830] font-medium py-3 ">
+                <h2 className="lg:text-[30px] md:text-[20px] text-[20px] text-[#292830] font-medium py-3 ">
                   Cross platform
                 </h2>
                 <p className="lg:text-[14px] md:text-[12px] font-normal text-[#BDBDBD] text-center">
@@ -159,11 +159,11 @@ const Features: React.FC = () => {
                 </Link>
               </div>
                   {/* card 2 .......................  */}
-              <div className="group transition-all duration-300 card flex justify-center items-center flex-col hover:shadow-lg py-20 md:px-0 lg:px-20 ">
-                <button className="flex justify-center items-center bg-[#FFBD740D] lg:w-16 md:w-12 lg:h-16 md:h-12 rounded-full">
+              <div className="group transition-all duration-300 card flex justify-center items-center flex-col hover:shadow-lg md:py-20 py-10 md:px-0 lg:px-20 ">
+                <button className="flex justify-center items-center bg-[#FFBD740D] lg:w-16 md:w-12 lg:h-16 md:h-12 rounded-full text-[55px]">
                   <CiCloudOn className="text-[#E2598B] lg:text-[35px] md:text-[25px]" />
                 </button>
-                <h2 className="lg:text-[30px] md:text-[20px] text-[#292830] font-medium py-3">
+                <h2 className="lg:text-[30px] md:text-[20px] text-[20px] text-[#292830] font-medium py-3">
                   Cloud server
                 </h2>
                 <p className="lg:text-[14px] md:text-[12px] font-normal text-[#BDBDBD] text-center">
@@ -174,11 +174,11 @@ const Features: React.FC = () => {
                 </Link>
               </div>
                   {/* card 3 ............................  */}
-              <div className="group transition-all duration-300 card flex justify-center items-center flex-col p-10 hover:shadow-lg py-20 md:px-0 lg:px-20">
+              <div className="group transition-all duration-300 card flex justify-center items-center flex-col p-10 hover:shadow-lg md:py-20 pt-10 md:px-0 lg:px-20">
                 <button className="flex justify-center items-center bg-[#FFBD740D] lg:w-16 md:w-12 lg:h-16 md:h-12 rounded-full">
-                  <MdOutlineBackpack className="text-[#4D12EE] lg:text-[35px] md:text-[25px]" />
+                  <MdOutlineBackpack className="text-[#4D12EE] lg:text-[35px] md:text-[25px] text-[55px]" />
                 </button>
-                <h2 className="lg:text-[30px] md:text-[20px] text-[#292830] font-medium py-3">
+                <h2 className="lg:text-[30px] md:text-[20px] text-[20px] text-[#292830] font-medium py-3">
                   Pure Javascript
                 </h2>
                 <p className="lg:text-[14px] md:text-[12px] font-normal text-[#BDBDBD] text-center">

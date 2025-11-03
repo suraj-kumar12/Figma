@@ -5,9 +5,9 @@ import { FaCheck } from "react-icons/fa6";
 import { FaLongArrowAltRight } from "react-icons/fa";
 const Pricing: React.FC = () => {
   return (
-    <section className="py-16 pt-0">
+    <section className="md:py-16 py-0">
       <div className="container mx-auto px-4">
-        <h1 className="text-[72px] font-bold text-[#292830] leading-[100%] text-center">
+        <h1 className="md:text-[72px] text-[30px] font-bold text-[#292830] leading-[100%] text-center">
           Choose your flexible plan.
         </h1>
        

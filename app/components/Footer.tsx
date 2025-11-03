@@ -11,6 +11,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className=" md:flex  justify-between  mb-6">
           <div className="mb-4">
+            {/* <div className="flex md:hidden justify-between"> */}
             <Link href="/" className="flex items-center lg:gap-2 md:gap-1 gap-1 ">
           <Image
             src="/X.png" 
@@ -19,9 +20,12 @@ const Footer = () => {
             height={40}           
             className="object-contain md:w-7 lg:w-10"
           />
+          
           <span className="lg:text-[23px] md:text-[20px] text-[20px] text-[#292830] font-medium">pense</span>
         </Link>
           </div>
+
+          <div className="sm:flex justify-between">
           <div>
             <h1 className="lg:text-[24px] md:text-[16px] text-[20px] font-medium uppercase text-[#292830] mb-4">Links</h1>
             <ul>
@@ -33,6 +37,7 @@ const Footer = () => {
                 <li className="mb-2"><Link href="/" className="font-medium lg:text-[18px] md:text-[14px] text-[#292830]">Blog</Link></li>
             </ul>
           </div>
+          {/* </div> */}
           <div>
             <h1 className="lg:text-[24px] md:text-[16px] text-[20px] font-medium uppercase text-[#292830] mb-4">Legal</h1>
             <ul>
@@ -41,6 +46,8 @@ const Footer = () => {
                 <li className="mb-2"><Link href="/" className="font-medium lg:text-[18px] md:text-[14px] text-[#292830]">Privecy policy</Link></li>
                 <li className="mb-2"><Link href="/" className="font-medium lg:text-[18px] md:text-[14px] text-[#292830]">Cookie policy</Link></li>
             </ul>
+          </div>
+
           </div>
           <div>
             <h1 className="lg:text-[24px] md:text-[16px] text-[20px] font-medium uppercase text-[#292830] mb-4">Newsletter</h1>
